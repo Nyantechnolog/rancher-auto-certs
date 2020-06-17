@@ -1,4 +1,4 @@
-ca: https://acme-staging.api.letsencrypt.org
+ca: https://acme-v02.api.letsencrypt.org
 account_key: config/account-staging.key
 key_length: 4096
 chain: https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem
