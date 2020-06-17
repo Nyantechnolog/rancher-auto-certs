@@ -51,8 +51,6 @@ The script config file is a [YAML](https://en.wikipedia.org/wiki/YAML) file.
 
 Each certificate is defined with a `name` and a list of `domains`. The name is only used for Rancher. Usually the name is one of the certificate domains, but this is not a restriction.
 
-By default the config points to the Let's Encrypt staging environment, which generates invalid certificates. To use the production environment, change the `ca` value to `https://acme-v01.api.letsencrypt.org`.
-
 
 Usage
 -----
