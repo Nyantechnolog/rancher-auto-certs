@@ -1,6 +1,6 @@
 FROM python:3.5-alpine
 
-RUN apk add --no-cache openssl ca-certificates
+RUN apk add --no-cache openssl ca-certificates nano
 
 ADD app /usr/src/app
 WORKDIR /usr/src/app
